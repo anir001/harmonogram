@@ -1,0 +1,56 @@
+data;zadanie;czas;pracownik;uwagi
+2025-01-13;Job02;8;Worker_A;
+2025-01-13;Job02;8;Worker_B;
+2025-01-15;Job04;8;Worker_A;
+2025-01-15;Job04;8;Worker_C;
+2025-01-15;Job05;4;Worker_D;Po terminie
+2025-01-16;Job04;8;Worker_A;
+2025-01-16;Job04;8;Worker_C;
+2025-01-16;Job05;8;Worker_D;Po terminie
+2025-01-17;Job07;8;Worker_A;
+2025-01-17;Job07;8;Worker_B;
+2025-01-17;Job07;8;Worker_C;
+2025-01-20;Job03;8;Worker_A;Po terminie
+2025-01-20;Job07;8;Worker_B;
+2025-01-20;Job07;8;Worker_C;
+2025-01-20;Job06;8;Worker_D;Po terminie
+2025-01-21;Job06;4;Worker_A;Po terminie
+2025-01-21;Job09;4;Worker_A;
+2025-01-21;Job08;2;Worker_B;
+2025-01-21;Job09;6;Worker_B;
+2025-01-21;Job06;8;Worker_D;Po terminie
+2025-01-22;Job09;8;Worker_A;
+2025-01-22;Job08;8;Worker_B;
+2025-01-23;Job11;8;Worker_A;
+2025-01-24;Job11;8;Worker_A;
+2025-01-24;Job12;8;Worker_B;
+2025-01-24;Job12;8;Worker_C;
+2025-01-24;Job12;8;Worker_D;
+2025-01-27;Job14;8;Worker_A;
+2025-01-27;Job12;2;Worker_B;
+2025-01-27;Job14;6;Worker_B;
+2025-01-27;Job12;8;Worker_C;
+2025-01-27;Job12;2;Worker_D;
+2025-01-27;Job13;6;Worker_D;
+2025-01-28;Job01;8;Worker_B;Po terminie
+2025-01-28;Job15;6;Worker_D;
+2025-01-29;Job16;8;Worker_A;
+2025-01-29;Job01;8;Worker_B;Po terminie
+2025-01-29;Job16;8;Worker_C;
+2025-01-29;Job15;8;Worker_D;
+2025-01-30;Job16;4;Worker_A;
+2025-01-30;Job01;8;Worker_B;Po terminie
+2025-01-30;Job16;8;Worker_C;
+2025-01-30;Job15;8;Worker_D;
+2025-01-31;Job10;8;Worker_C;Po terminie
+2025-01-31;Job10;8;Worker_D;Po terminie
+2025-02-03;Job18;8;Worker_A;
+2025-02-03;Job19;8;Worker_B;
+2025-02-03;Job10;8;Worker_C;Po terminie
+2025-02-03;Job10;6;Worker_D;Po terminie
+2025-02-03;Job20;2;Worker_D;
+2025-02-04;Job18;8;Worker_A;
+2025-02-04;Job18;4;Worker_B;
+2025-02-04;Job19;4;Worker_B;
+2025-02-04;Job17;8;Worker_C;Po terminie
+2025-02-04;Job20;8;Worker_D;

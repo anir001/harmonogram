@@ -1,0 +1,13 @@
+KPI;Value
+Percentage of tasks completed on time;95.00%
+Average delay for late tasks;1.00 all days
+Percentage of hours completed on time;98.95%
+Utilization of Worker_B;60.53%
+Utilization of Worker_C;75.00%
+Utilization of Worker_D;61.84%
+Utilization of Worker_A;53.95%
+Tasks assigned to Worker_B;8
+Tasks assigned to Worker_C;9
+Tasks assigned to Worker_D;8
+Tasks assigned to Worker_A;7
+Average task duration;1.85 working days

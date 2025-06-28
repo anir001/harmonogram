@@ -1,0 +1,5 @@
+Method;Description;Status;Objective_Value;Solve_Time_s;Total_Jobs;On_Time_Jobs;Late_Jobs;On_Time_Percentage;Avg_Delay_Days;Total_Hours;Schedule_Span_Days;Utilization_Worker_A_%;Utilization_Worker_B_%;Utilization_Worker_C_%;Utilization_Worker_D_%
+makespan;Minimize Maximum Completion Time;OPTIMAL;16.0;0.75;20;14;6;70.0;5.3;382;23;58.7;52.2;47.8;48.9
+workload_balance;Balance Worker Workload;OPTIMAL;96.0;0.84;20;9;11;45.0;10.5;382;31;52.2;52.2;51.1;52.2
+minimize_delays;Minimize Delays Past Deadlines;OPTIMAL;1.0;0.70;20;18;2;90.0;1.5;382;23;58.7;59.8;60.9;28.3
+pack_jobs;Pack Jobs Efficiently;OPTIMAL;172818.0;1.06;20;19;1;95.0;1.0;382;23;44.6;50.0;62.0;51.1

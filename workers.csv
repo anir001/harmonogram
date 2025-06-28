@@ -1,0 +1,5 @@
+worker_id;unavailable_start;unavailable_end
+Worker_A;;
+Worker_B;2025-01-16;2025-01-16
+Worker_C;;
+Worker_D;2025-01-17;2025-01-18
