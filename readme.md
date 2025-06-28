@@ -3,7 +3,7 @@
 
 Projekt ten służy do automatycznego tworzenia harmonogramów zadań produkcyjnych oraz oceny ich realizacji przy użyciu wskaźników KPI. Składa się z dwóch modułów:
 
-* **harmv4.py** – optymalizator harmonogramu wykorzystujący OR-Tools (CP-SAT).
+* **harmonogram.py** – optymalizator harmonogramu wykorzystujący OR-Tools (CP-SAT).
 * **kpi.py** – moduł analizy wskaźników efektywności i terminowości zadań.
 
 
@@ -63,10 +63,10 @@ Worker_B;2025-01-16;2025-01-16
 
 ## 🚀 Uruchamianie harmonogramu
 
-Plik `harmv4.py`:
+Plik `harmonogram.py`:
 
 ```bash
-python harmv4.py
+python harmonogram.py
 ```
 
 ### Wyniki:
