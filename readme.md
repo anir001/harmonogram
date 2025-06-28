@@ -124,9 +124,9 @@ Utilization of Worker_C;75.00%
 
 ### Ograniczenia i założenia modelu**
 
-* Każde zadanie **musi być przypisane** do tylu pracowników, ile dopuszcza `max_parallel`, co w pewnych scenariuszach może sztucznie zwiększać trudność modelu (np. brak elastyczności w doborze liczby osób).
-* Model zakłada **ciągłość realizacji zadań**, co redukuje możliwość rozciągania zadań w czasie w sposób nieregularny – to może kolidować z elastycznym zarządzaniem dostępnością.
-* Zdefiniowane są constraints dotyczące:
+* Każde zadanie **musi być przypisane** do tylu pracowników, ile dopuszcza `max_parallel`.
+* Model zakłada **ciągłość realizacji zadań**, co redukuje możliwość rozciągania zadań w czasie w sposób nieregularny.
+* Zdefiniowane są wymagania dotyczące:
 
   * dostępności pracowników,
   * braku przekroczenia dziennego limitu godzin,
