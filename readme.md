@@ -113,3 +113,22 @@ Utilization of Worker_C;75.00%
 * Format dat: `YYYY-MM-DD`.
 * System działa wyłącznie w dni robocze (poniedziałek–piątek).
 * Niepoprawne lub niespójne dane mogą skutkować brakiem rozwiązania.
+
+## ⚙️ Działanie modułu harmonogramowania – przegląd funkcjonalny**
+
+### Model decyzyjny**
+
+* Każde zadanie ma przypisaną liczbę roboczogodzin do wykonania (`duration`) oraz dopuszczalny przedział czasowy (start–deadline).
+* Zadania mogą być wykonywane równolegle przez wielu pracowników (do `max_parallel`), co jest kluczowym założeniem wpływającym na liczbę potrzebnych dni realizacji.
+* Pracownicy mają ograniczenia dzienne (maks. 8h/dzień) i mogą mieć okresy niedostępności.
+
+### Ograniczenia i założenia modelu**
+
+* Każde zadanie **musi być przypisane** do tylu pracowników, ile dopuszcza `max_parallel`, co w pewnych scenariuszach może sztucznie zwiększać trudność modelu (np. brak elastyczności w doborze liczby osób).
+* Model zakłada **ciągłość realizacji zadań**, co redukuje możliwość rozciągania zadań w czasie w sposób nieregularny – to może kolidować z elastycznym zarządzaniem dostępnością.
+* Zdefiniowane są constraints dotyczące:
+
+  * dostępności pracowników,
+  * braku przekroczenia dziennego limitu godzin,
+  * niedopuszczalności pracy poza dniami roboczymi.
+
